@@ -1,0 +1,53 @@
+header{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2, h3, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#grille h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+#logo_header{
+    height: 100px; 
+    width: 100px;
+}
+
+#logo_header img{
+    object-fit: cover;
+    height: 100%;
+}
+
+#purple_nav_link{
+    color: indigo;
+    font-weight: bold;
+}
+
+a:visited{
+    color:gray;
+}
+
+#purple_nav_link :visited{
+    color:indigo;
+}
+
+a:hover{
+    font-weight: bolder;
+    color: indigo;
+}
