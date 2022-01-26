@@ -2,10 +2,10 @@
 
 li{
     padding-left: 10px;
-    $headercolor: gray;
+    color: $headercolor;
     a{
         text-decoration: none;
-        $headercolor: gray;
+        color: $headercolor;
     }
 }
 
@@ -15,16 +15,16 @@ main{
 }
 
 h1{
-    $firstcolor: #D05270;
+    color: $firstcolor;
 }
 
 h2{
-    $secondcolor: indigo;
+    color: $secondcolor;
     font-size: 20px;
 }
 
 h4{
-    $firstcolor: #D05270;
+    color: $firstcolor;
     font-size: 24px;
 }
 
@@ -42,27 +42,27 @@ h4{
     }
 
     #blog_page_main h2{
-        $secondcolor: indigo;
+        color: $secondcolor;
         font-size: 20px;
         margin-top: 60px;
         margin-bottom: 60px;
     }
 
     #blog_page_main h3{
-        $secondcolor: indigo;
+        color: $secondcolor;
         font-size: 16px;
         margin-top: 60px;
         margin-bottom: 60px;
     }
 
     #blog_page_main h4{
-        $firstcolor: #D05270;
+        color: $firstcolor;
         font-size: 24px;
         margin-top: 2px;
     }
 
     #blog_page_main p{
-        $blogpagecolor: #414342;
+        color: $blogpagecolor;
     }
 }
 
