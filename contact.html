@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <title>Contact</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="./Ressources/logo_sans_fond.png">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img id="logo_header" src="./Ressources/logo.png" alt="logo"></a>
+            <nav id="menu">
+                <ul id="design_menu">
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="apropos.html">A PROPOS</a></li>
+                    <li><a href="contact.html" id="purple_nav_link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article class="article_top">
+                <div>
+                    <h1>
+                        Contact
+                    </h1>
+                    <h2>
+                        Lorem ipsum
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error quas dignissimos quis laborum
+                        pariatur
+                        consectetur, facilis modi et esse ea a eum debitis, earum, ratione dolore perspiciatis. Neque,
+                        ipsum?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div id="reseaux">
+                        <ul>
+                            <li><a href="X"><img src="Ressources/icon_twitter_bouton.png" alt="icone_twitter"></a></li>
+                            <li><a href="x"><img src="Ressources/icon_linkedin_bouton.png" alt="icone_twitter"></a></li>
+                            <li><a href="x"><img src="Ressources/icon_medium_bouton.png" alt="icone_twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./Ressources/illustration.png" alt="illustration" id="boy_pic">
+            </article>
+                <form method="post" id="form_contact">
+                    <label for="nameusername">Nom, prénom</label>
+                    <input type="text"  id="nameusername" name="name">
+                    <label for="mail">Adresse email</label>
+                    <input type="email" id="mail" name="mail">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg"></textarea>
+                    <input type="submit" value="Envoyer" id="button" onClick="confirmsend()">
+                </form>
+                <script>
+                    function confirmsend() {
+                      alert("Squedrong a bien reçu votre message");
+                      {
+                        formulaire.submit();
+                      }
+                    }
+                  </script>
+        </main>
+    </body>
+</html>
