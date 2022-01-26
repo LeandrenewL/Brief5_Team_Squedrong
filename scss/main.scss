@@ -1,0 +1,32 @@
+// BASE
+
+@import "base/normalize";
+@import "base/font";
+
+// ABSTRACTS
+
+@import "abstracts/animation";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// COMPONENTS
+
+@import "components/container";
+@import "components/button";
+
+// LAYOUT
+
+@import "layout/formulaire";
+@import "layout/grille";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+
+// PAGE
+
+@import "pages/apropos";
+
+@import "pages/contact";
+@import "pages/blog";
+@import "pages/CV"
+
