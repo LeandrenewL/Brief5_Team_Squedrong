@@ -1,0 +1,10 @@
+@mixin default {
+    h1{
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    h2, h3, p{
+        font-family: 'Montserra', sans-serif;
+    }
+    
+}
