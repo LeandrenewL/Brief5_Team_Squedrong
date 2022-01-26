@@ -1,0 +1,74 @@
+.intro a{
+    border: solid 1px #999;
+}
+
+.grille{
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+   }
+
+ #twitter{ color: rgb(255, 255, 255);
+      background-color:#47acdf;
+       padding: 10px 30px;   
+   }
+ #linkedin{background-color: #1275b1;
+color:rgb(255, 255, 255);
+padding: 10px 30px;
+}
+#medium{
+    color: rgb(255, 255, 255); 
+    background-color: black;
+    padding: 10px 30px;
+}
+
+.icone{
+    max-width: 20px;
+    max-height: 20px;
+    padding: 0px 20px ;
+}
+
+.container{
+     display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(3,minmax(80px,1fr));
+width: 1100px;
+gap: 30px;
+margin-left: auto;
+  margin-right: auto;
+ 
+}
+img{max-width: 100%;
+height : auto}
+
+.box1{
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+    background-color: #ED8; /*Jaune*/
+  }
+  .box2{
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    background-color: #4DA; /*Vert*/
+  }
+  .box3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #4AD; /*Bleu*/
+  }
+  .box4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #A4D;/*Violet*/
+  }
+  .box5{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #C24;/*Rouge*/
+  }
+  .box6{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
