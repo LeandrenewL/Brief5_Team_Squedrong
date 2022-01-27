@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.global_footer{
+    display: flexbox;
+    
+}
 footer {
-    background-color:pink;
+    background-color:#e1466f;
 }
 footer ul li {
     justify-content: space-between;
@@ -17,7 +24,49 @@ footer ul li {
     margin: 20px;
 }
 
-footer ul li a {
+footer ul li  {
     text-decoration: none;
     font-weight: 600;
+}
+.flottant{
+
+        height: 120px;
+        width: 120px;
+        padding: 5px;
+        padding-left: 10px;
+        margin: 5px;
+      }
+
+.flottant img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        height: 100%;
+      }
+}
+img{
+    grid-area: Image;
+    margin-left: 20px;
+    width: 120px;
+    margin: auto;
+}
+p {
+    grid-area: Text;
+    width: 550px;
+}
+
+.global_footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color:white;
+  font-size: 1em;
+}
+.texte_footer{
+    text-align: justify;
+    padding: 30px;
+}
+
+.newsletter{
+    text-align:justify;
+    margin: right 10px; ;
 }
