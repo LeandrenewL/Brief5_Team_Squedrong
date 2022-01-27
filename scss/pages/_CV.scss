@@ -60,11 +60,16 @@
 
 #squedrong_team h2{
     margin-top: 50px;
-}
 
-.dev_pic{
-    width: 350px;
-    border-radius: 100%;
+    .dev_pic{
+        width: 350px;
+        border-radius: 100%;
+        
+    img{
+        height: 200px; 
+        background-size: contain;
+        }
+    }
 }
 
 .cvpage_flexdiv{
@@ -110,17 +115,20 @@
     padding: 0;
 
     img{
-    width: 200px;
-    
+        width: 400px;
+        height: 50px;
+
+
     li{
     padding-left: 0;
-    padding-right: 20px;
+    padding-right: 30px;
+    
+    li:nth-last-child(1){
+        padding-right: 0px;
+                }
             }
         }
     }
 }
 
-.reseaux li:nth-last-child(1){
-    padding-right: 0px;
-}
 
