@@ -1,3 +1,7 @@
+  
+  main{
+    margin: 20px 20px;
+  }
   h1 {
     font-weight: 700;
     letter-spacing: 1px;
@@ -6,42 +10,54 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 auto;
-    width: 1100px;
+    margin:20px 20px;
+    width: 100%;
+   
+  a{
+      border: solid 10px;
+      margin: 0 auto;
+      gap: 20px;
+      }
 }
- .intro a{
-    border: solid 10px;
-    margin: 0 auto;
-    gap: 20px;
-    }
-    
-    .box {
+
+   .box {
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
    gap: 30px;
-    }
 
-  #twitter{ color: rgb(255, 255, 255);
+   #twitter{
+     color: rgb(255, 255, 255);
        background-color:#47acdf;
         padding: 10px 30px;   
-    }
-  #linkedin{background-color: #1275b1;
-   color:rgb(255, 255, 255);
-   padding: 10px 30px;
    }
+  #linkedin{
+    background-color: #1275b1;
+     color:rgb(255, 255, 255);
+      padding: 10px 30px;
+  }
 
   #medium{
-    color: rgb(255, 255, 255); 
+   color: rgb(255, 255, 255); 
     background-color: black;
-    padding: 10px 30px;
-}
+     padding: 10px 30px;
+  }
 
-.icone{
-  max-height: 20px;
-  padding:0px 20px ;
-  
+  .icone{
+    max-height: 20px;
+      padding:0px 20px ;
 }
+   }
 
- 
+    @media screen and (max-width: 1140px)
+    {
+      .intro { 
+         width: 80%;
+        .box {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+       }
+      } 
+     }
