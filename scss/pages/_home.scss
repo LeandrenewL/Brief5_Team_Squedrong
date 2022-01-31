@@ -6,7 +6,7 @@
     display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     
     a{
@@ -19,12 +19,14 @@
    .box {
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: center; align-content:stretch;
+  
    align-items: center;
    gap: 60px;
    .icones-media{
     display:flex;
     flex-direction: row;
+    
  }
    #boy{ min-width:400px ;
          min-height: 400px;
@@ -58,17 +60,35 @@ padding: 10px 30px;
 
     
 
-    @media screen and (max-width: 1140px)
-    {
-        .intro {width:800px ;
-          .box {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap; 
-            .icones-media {
-              display: flex;
-              flex-direction: column;
-              flex-wrap: wrap; 
-              }
-             
-    } }}
+@media screen and (max-width: 1140px)
+{
+    .intro {width:800px ;
+      .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        .icones-media {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+        }
+         
+} }}
+@media screen and (max-width: 800px)
+{
+    .intro {width: 400px ;
+      margin: 10px;
+      .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        .icones-media {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+         }
+  
+} }}
+
