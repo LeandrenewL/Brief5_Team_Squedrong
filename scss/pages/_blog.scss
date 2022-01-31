@@ -11,20 +11,23 @@ li{
 main{
     width: 1100px;
     margin:0 auto;
-}
 
-h1{
+
+    h1{
     color: $firstcolor;
-}
 
-h2{
+
+    h2{
     color: $secondcolor;
     font-size: 20px;
-}
 
-h4{
+
+    h4{
     color: $firstcolor;
     font-size: 24px;
+            }
+        }
+    }
 }
 
 #blog_main_pic{
@@ -65,9 +68,6 @@ h4{
     }
 }
 
-#image_page{
-    margin-top: 50px;
-}
 
 #about_blog_page{
     display: flex;
