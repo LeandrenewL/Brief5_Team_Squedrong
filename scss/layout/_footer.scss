@@ -52,7 +52,6 @@ img{
 }
 p {
     grid-area: Text;
-    width: 550px;
 }
 
 .global_footer{
@@ -61,8 +60,7 @@ p {
   flex-direction: row;
   color:white;
   font-size: 1em;
-  
-  
+  align-items: center;  
 }
 .texte_footer{
     text-align: justify;
@@ -82,7 +80,6 @@ p {
     height: 60px;
     background:#171345;
     margin-top: 10px;
-    position: absolute;
     bottom: 0%;
    
   }
