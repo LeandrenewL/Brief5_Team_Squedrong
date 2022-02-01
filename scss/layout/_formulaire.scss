@@ -1,0 +1,102 @@
+#form_contact{
+    padding: 100px;
+    margin-bottom: 300px;
+    width: 500px;
+}
+
+
+label{
+    color: $firstcolor;
+    font-weight: bold;
+    margin: 15px auto;
+    margin-top: 35px;
+    display: block;
+}
+
+
+
+textarea{
+    background-color: #FFFF;
+    height: 200px;
+    width: 495px;
+    border: 1px solid $headercolor;
+    box-shadow: 1px 1px 1px $textcolor;
+    resize: none;
+    margin-top: 5px;
+    color: $blogpagecolor;
+}
+
+input{
+    background-color: #FFFF;
+    width: 495px;
+    border: 1px solid $headercolor;
+    box-shadow: 1px 1px 1px $textcolor;
+    margin-top: 5px;
+    font-size: 16px;
+    color: $headercolor;
+}
+
+
+#button{
+    width: 120px;
+    height: 30px;
+    color: $buttoncolor;
+    background-color: #FFFF;
+    border: 1px solid $headercolor;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1140px)
+{   #form_contact{
+    padding: 50px;
+    width: 50px;
+}
+
+
+label{
+    color: $firstcolor;
+    font-weight: bold;
+    display: flex;
+}
+
+
+
+textarea{
+    background-color: #FFFF;
+    height: 200px;
+    width: 495px;
+    border: 1px solid $headercolor;
+    box-shadow: 1px 1px 1px $textcolor;
+    resize: none;
+    margin-top: 5px;
+    color: $blogpagecolor;
+}
+
+input{
+    background-color: #FFFF;
+    width: 495px;
+    border: 1px solid $headercolor;
+    box-shadow: 1px 1px 1px $textcolor;
+    margin-top: 5px;
+    font-size: 16px;
+    color: $headercolor;
+}
+
+
+#button{
+    width: 120px;
+    height: 30px;
+    color: $buttoncolor;
+    background-color: #FFFF;
+    border: 1px solid $headercolor;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+
+}
