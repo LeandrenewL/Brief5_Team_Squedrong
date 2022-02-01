@@ -62,10 +62,10 @@ padding: 10px 30px;
 
 @media screen and (max-width: 1140px)
 {
-    .intro {width:800px ;
+    .intro {width:600px ;
       .box {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap; 
         .icones-media {
           display: flex;

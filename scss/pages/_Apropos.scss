@@ -1,0 +1,93 @@
+main{
+  margin-left: 20px;
+    margin-right: 20px;
+}
+.article_propos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  
+    position: relative;
+
+    #img_propos{
+      object-fit: cover;
+      margin-top: 50px;
+      width: 1100px;
+      height: 500px;}  
+  
+    img{width: 100%;
+    height :500px;
+    object-fit: cover;
+    
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; align-content:stretch;
+    align-items: center;
+    gap: 30px;
+   
+    .icones-media{
+     display:flex;
+     flex-direction: row;
+     gap: 20px;
+  }
+    #boy{ min-width:200px ;
+          min-height: 200px;
+       }
+    #twitter
+   { color: rgb(255, 255, 255);
+     background-color:#47acdf;
+      padding: 10px 30px;   
+  }
+     #linkedin{
+     background-color: #1275b1;
+     color:rgb(255, 255, 255);
+     padding: 10px 30px;
+  }
+ 
+ #medium{
+  color: rgb(255, 255, 255); 
+  background-color: black;
+  padding: 10px 20px;
+ }
+ 
+ 
+ .icone{
+   max-width: 30px;
+   max-height: 30px;
+   padding:0px 20px ;
+ }
+}}
+@media screen and (max-width: 1140px){
+  .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; align-content:stretch;
+   align-items: center;
+ 
+  .icones-media{
+   display:flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    .icones-media {
+      display: flex;
+      flex-direction: row.;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+
+  
