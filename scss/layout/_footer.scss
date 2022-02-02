@@ -4,26 +4,19 @@
 footer {
     background-color:#e1466f;
 }
-footer ul li {
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1%;
-    display: flex;
-}
-
-
 footer ul {
     display: flex;
     list-style: none;
 }
 
-footer ul li {
-    margin: 20px;
-}
-
 footer ul li  {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    display: flex;
     text-decoration: none;
     font-weight: 600;
+     margin: 20px;
 }
 .liste_footer{
     font-size: 1.2em;
@@ -44,12 +37,12 @@ footer ul li  {
            object-fit: cover;
         height: 100%;
       }
-img{
-    grid-area: Image;
-    margin-left: 20px;
-    width: 120px;
-    margin: auto;
-}
+      img{
+        grid-area: Image;
+        margin-left: 20px;
+        width: 120px;
+        margin: auto;
+    }
 p {
     grid-area: Text;
 }
@@ -72,23 +65,9 @@ p {
     margin: right 10px; ;
 }
 
-.deuxieme_foot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 60px;
-    background:#171345;
-    margin-top: 10px;
-    bottom: 0%;
-   
-  }
-  .deuxieme_foot ul li {
-    display: inline;
-    color: #fff;
-    padding: 3px;
-    
-  }
+
+  
+ 
   
   .liste_footer ul li a {
       color: #fff;
@@ -100,6 +79,48 @@ p {
   .footer_form {
       width: 100%;
   }
+  .deuxieme_foot {
+    display: flex;
 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background:#171345;
+    margin-top: 10px;
+    bottom: 0%;
+       ul li{ color: #fff;
+        padding: 3px;
+  }
+      }
+  
   @media screen and (max-width: 1140px)
-{}
+{  
+   
+    .global_footer{
+       
+        display: flex;
+       flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .liste_footer ul {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap; 
+            align-items: center;
+            margin-bottom: 1%;
+            
+            text-decoration: none;
+            font-weight: 600;
+             margin: 20px;
+          }
+  }
+  .mention{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+
+   }
+}

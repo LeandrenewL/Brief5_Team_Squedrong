@@ -30,12 +30,13 @@ nav .container{
 #hamburger{
     font-size: 50px;
     cursor: pointer;
-    display: none;
-}
+    display: none;}
+  
 
 @media screen and (max-width: 640px) {
     #hamburger{
         display: block;
+       color: #171345;
     }
 
     nav ul{
