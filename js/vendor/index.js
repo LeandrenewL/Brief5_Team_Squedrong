@@ -18,5 +18,3 @@ bouton.onclick = function() {
     menu.classList.remove("menu_active");
   }
 }
- const url ="http://localhost:1337/api/articles?populate=*"
- alert("fichier bien creer");
