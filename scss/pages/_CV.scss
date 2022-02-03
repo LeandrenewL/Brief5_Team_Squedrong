@@ -128,10 +128,48 @@ main {
     }
 }
 
+#image_page {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+}
+
 @media screen and (max-width: 500px) {
     #squedrong_team {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        .cvpage_flexdiv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+    }
+    .reseaux {
+        width: 100%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    #cv_grid p{
+        width: 100%;
     }
 }
+
+#image_page {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+}
+
